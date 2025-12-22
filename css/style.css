@@ -1,39 +1,39 @@
 :root {
-            --primary: #8b5cf6;
-            --secondary: #10b981;
-            --dark: #0f172a;
-        }
-        body {
-            background-color: var(--dark);
-            color: white;
-            scroll-behavior: smooth;
-            font-family: 'Inter', sans-serif;
-        }
-        .glass {
-            background: rgba(255, 255, 255, 0.03);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .gradient-text {
-            background: linear-gradient(90deg, #a78bfa, #34d399);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .tracker-log {
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 0.7rem;
-        }
-        .animate-float {
-            animation: float 3s ease-in-out infinite;
-        }
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
-        .custom-scrollbar::-webkit-scrollbar {
-            width: 4px;
-        }
-        .custom-scrollbar::-webkit-scrollbar-thumb {
-            background: #4b5563;
-            border-radius: 10px;
-        }
+    --primary: #8b5cf6;
+    --secondary: #10b981;
+    --dark: #0f172a;
+}
+body {
+    background-color: var(--dark);
+    color: white;
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+.glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.gradient-text {
+    background: linear-gradient(90deg, #a78bfa, #34d399);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tracker-log {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.7rem;
+}
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #4b5563;
+    border-radius: 10px;
+}
